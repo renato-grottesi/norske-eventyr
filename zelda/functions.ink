@@ -51,7 +51,7 @@
 - i == QMaster:
   ~return "den gylne rustningen"
 - else:
-  ~return "ingen klær"
+  ~return "bare shorts"
 }
 
 === function WeaponPrice(i) ===

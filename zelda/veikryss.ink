@@ -6,15 +6,15 @@ Du er i veikrysset.
 
 = mann
 {mann==1: Det står en gammel mann på veikrysset.}
- 
 * 🟢"Hvem er du?" 
   -> gammel_mann.hvem
 * 🟢"Hvem er jeg?" 
   -> gammel_mann.du
 * 🟢"Hva skal jeg gjøre?" 
   -> gammel_mann.gjore
-* ->
-  Renato går og sier
++ {mann==4} 🟢"Ha det!"
+  -> hadet
+= hadet
   🔵"Lykke til, unge mann".
   🔵"Faktisk, vent!"
   🔵"Det er farlig å gå alene."
@@ -22,7 +22,7 @@ Du er i veikrysset.
   Du fikk et tresverd.
   ~weapon = QWood
 -> kryss
- 
+
 = kryss
 Det er tre veier.
 + [Gå til grasmarken.] -> grasmark.landing
