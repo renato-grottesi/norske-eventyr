@@ -43,17 +43,17 @@ Du angriper grisen med {WeaponsName(weapon)}.
 
 { successful_attack && (weapon<QSoldier):
 ~weapon=QSoldier
-Du fant en {WeaponsName(QSoldier)}.
+Du fant {WeaponsName(QSoldier)}.
 }
 
 { successful_attack && (shield<QSoldier):
 ~shield=QSoldier
-Du fant en {ShieldName(QSoldier)}.
+Du fant {ShieldName(QSoldier)}.
 }
 
 { successful_attack && (armour<QSoldier):
 ~armour=QSoldier
-Du fant en {ClothsName(QSoldier)}.
+Du fant {ClothsName(QSoldier)}.
 }
 
 + {successful_attack} [Gå videre til arenaen.] -> arena.landing

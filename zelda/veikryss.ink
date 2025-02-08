@@ -1,7 +1,7 @@
 === veikryss
 
 = landing
-Du er i veikryssen.
+Du er i veikrysset.
 -> kryss
 
 = mann

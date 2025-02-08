@@ -43,22 +43,22 @@ Du angriper Lynel med {WeaponsName(weapon)}.
 
 { successful_attack && (weapon<QMaster):
 ~weapon=QMaster
-Du fant en {WeaponsName(QMaster)}.
+Du fant {WeaponsName(QMaster)}.
 }
 
 { successful_attack && (shield<QMaster):
 ~shield=QMaster
-Du fant en {ShieldName(QMaster)}.
+Du fant {ShieldName(QMaster)}.
 }
 
 { successful_attack && (armour<QMaster):
 ~armour=QMaster
-Du fant en {ClothsName(QMaster)}.
+Du fant {ClothsName(QMaster)}.
 }
 
 { successful_attack && (bow<QMaster):
 ~bow=QMaster
-Du fant en {BowName(QMaster)}.
+Du fant {BowName(QMaster)}.
 }
 
 + {successful_attack} [Gå videre til slottet.] -> slott.landing

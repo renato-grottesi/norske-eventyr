@@ -9,7 +9,7 @@ Det er noe veldig ondt her!
 = ganon
 Du måte Ganon
 🔴 Jeg er Ganon og jeg vil drepe deg, Oliver!
-Lynel angriper deg.
+Ganon angriper deg.
 + [Forsvar deg selv.] -> defense_1
 + [Gå tilbake.] -> arena.landing
 
